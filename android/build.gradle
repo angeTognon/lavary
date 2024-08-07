@@ -4,12 +4,12 @@ buildscript {
         google()
         jcenter()
     }
-
     dependencies {
         classpath 'com.android.tools.build:gradle:3.5.0'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:2.0.0"
     }
 }
+
 allprojects {
     repositories {
         google()

@@ -85,9 +85,9 @@ class _MyAppState extends State<MyApp> {
         useMaterial3: true,
       ),
       home: isFirstCall
-          ? OnboardingScreen()
+          ? MyBottomNavBar()
           : isFirstCall == false && eya == false
-              ? LoginPage()
+              ? MyBottomNavBar()
               : MyBottomNavBar(),
       // home: isFirstCall? OnboardingScreen() : isFirstCall== false && eya==false?  LoginPage() : MyBottomNavBar(),
 
